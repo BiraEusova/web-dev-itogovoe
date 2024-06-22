@@ -1,0 +1,40 @@
+.modalImg {
+    margin-top: 20px;
+    height: 100%;
+    max-width: 100%;
+    object-position: 50% 50%;
+    object-fit: contain;
+    padding: 8px;
+    loading: lazy;
+}
+
+.productInfo {
+    height: 100%;
+    padding: 20px 8px;
+    margin: 0;
+}
+
+.price {
+    color: #001529;
+    font-size: 14pt;
+    width: fit-content;
+}
+
+.category {
+    background: #d6e4ff;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #10239e;
+    width: fit-content;
+}
+
+.category p{
+    color: #10239e;
+    font-size: 10pt;
+    font-weight: 400;
+    padding: 4px 12px;
+}
+
+.description {
+    margin-top: 24px;
+}

@@ -1,0 +1,31 @@
+.card {
+    height: 100%;
+}
+
+.cardImage {
+    height: 200px;
+    width: 100%;
+    object-position: 50% 50%;
+    object-fit: contain;
+    padding: 8px;
+    loading: lazy;
+}
+
+.cardMeta {
+    height: 100%;
+    margin: -20px;
+}
+
+.cardTitle {
+    color: #001529;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+}
+
+.cardDescription {
+    color: black;
+    font-size: 10pt;
+    font-weight: 600;
+    text-overflow: ellipsis;
+}
