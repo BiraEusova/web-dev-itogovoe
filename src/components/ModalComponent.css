@@ -1,11 +1,15 @@
 .modalImg {
     margin-top: 20px;
     height: 100%;
-    max-width: 100%;
+    max-width: 200px;
     object-position: 50% 50%;
     object-fit: contain;
     padding: 8px;
     loading: lazy;
+}
+
+@media (max-width: 1024px) {
+    max-width: 100%;
 }
 
 .productInfo {
